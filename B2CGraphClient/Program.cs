@@ -28,6 +28,7 @@ namespace B2CGraphShell
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Please enter a command as the first argument.  Try 'B2CGraphShell Help' for a list of commands.");
                 Console.ForegroundColor = init;
+                //Console.ReadKey();
                 return;
             }
 
@@ -73,6 +74,8 @@ namespace B2CGraphShell
             {
                 Console.ForegroundColor = init;
             }
+
+            //Console.ReadKey();
         }
 
         private static void GetUser(string[] args)
